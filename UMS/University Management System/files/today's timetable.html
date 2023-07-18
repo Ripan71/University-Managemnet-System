@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Today' Time-Table</title>
+</head> 
+<style>
+body {
+  background-image: url("images/clock.jfif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+<H1><FONT COLOR="white"><CENTER>Today's Time-Table</FONT></H1>
+<font color="Black">
+<H1> 
+<script type="text/javascript"> 
+
+        var myDate = new Date(); 
+
+        var myDay = myDate.getDay();
+		
+		var weekday = ['Sunday', 'Monday', 'Tuesday', 
+
+            'Wednesday', 'Thursday', 'Friday', 'Saturday']; 
+document.write( weekday[myDay]); 
+document.write("<br/>");
+</script>
+</H1>
+<h2>
+<style>
+table,th,td{
+border: 5px  solid  red;
+}
+th,td{
+padding: 50px;
+}
+th{
+text-align: center;
+}
+</style>
+<table style="width:100%">
+<tr>
+<th align="center">Time</th>
+<th align="center">Subjects</th>
+</tr>
+<tr>
+<td align="center">10:00am-11:00am</td>
+<td align="center">PEL103</td>
+</tr> 
+<tr>
+<td align="center">12:00am-1:00pm</td>
+<td align="center">PHY109</td>
+</tr> 
+<tr>
+<td align="center">1:00pm-2:00pm</td>
+<td align="center">MTH166</td>
+</tr> 
+<tr>
+<td align="center">3:00pm-5:00pm</td>
+<td align="center">CSE326</td>
+</tr> 
+</table> 
+</h2>
+
+</body> 
+</html>
